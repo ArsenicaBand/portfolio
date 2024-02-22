@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+
+body, 
+html {
+    background-color: rgb(197, 252, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+#logo_arsenica {    
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    background: url("../img/arsenica.png") no-repeat ;
+    background-size: cover
+}
+
+div {
+    /*background-color: rgb(78, 104, 82);*/
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    font-size: 0.7em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 0px auto;
+    width: 90%;
+    height: 10vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.184);
+
+    max-width: 400px;
+    max-height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.div_link:hover {
+    background-color: rgba(0, 0, 0, 0.531);
+}*/
+
+img {
+    width: 8%;
+    margin-right: 8px;
+}
